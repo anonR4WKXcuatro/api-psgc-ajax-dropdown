@@ -34,7 +34,7 @@ $(document).ready(function () {
                 });
             },
             error: function (jqXHR, textStatus, errorThrown) {
-                console.log('Errors:', errorThrown);
+                console.log('Error:', errorThrown);
             }
         });
     });
